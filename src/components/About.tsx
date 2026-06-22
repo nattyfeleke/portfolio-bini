@@ -1,14 +1,15 @@
-import React from 'react';
-import { FadeIn } from './FadeIn';
+import React from "react";
+import { FadeIn } from "./FadeIn";
 export function About() {
   const skills = [
-  'Figma',
-  'Prototyping',
-  'User Research',
-  'Design Systems',
-  'Interaction Design',
-  'Wireframing',
-  'Usability Testing'];
+    "Figma",
+    "Prototyping",
+    "User Research",
+    "Design Systems",
+    "Interaction Design",
+    "Wireframing",
+    "Usability Testing",
+  ];
 
   return (
     <section id="about" className="py-32 bg-base">
@@ -26,7 +27,7 @@ export function About() {
             </p>
             <div className="flex items-end gap-4">
               <span className="font-serif text-7xl md:text-8xl text-primary leading-none tracking-tightest">
-                4+
+                3+
               </span>
               <span className="text-primary/60 text-lg mb-2">
                 years of
@@ -42,19 +43,19 @@ export function About() {
                 Core Capabilities
               </h3>
               <div className="flex flex-wrap gap-3">
-                {skills.map((skill) =>
-                <span
-                  key={skill}
-                  className="px-4 py-2 rounded-full border border-white/10 text-sm text-primary/80 bg-white/5 hover:bg-accent/20 hover:border-accent/50 hover:text-primary transition-colors cursor-default">
-                  
+                {skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 rounded-full border border-white/10 text-sm text-primary/80 bg-white/5 hover:bg-accent/20 hover:border-accent/50 hover:text-primary transition-colors cursor-default"
+                  >
                     {skill}
                   </span>
-                )}
+                ))}
               </div>
             </div>
           </FadeIn>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }
