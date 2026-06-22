@@ -5,14 +5,14 @@ export function Testimonials() {
   {
     quote:
     'Their ability to translate complex requirements into elegant, intuitive interfaces is unmatched. They elevated our entire product experience.',
-    name: 'Sarah Jenkins',
-    role: 'VP of Product, FinTech Co.'
+    name: 'Mikyas Woubshet',
+    role: 'Senior Developer,Safaricom.'
   },
   {
     quote:
     "A true partner in the design process. They don't just make things look good; they think deeply about the user journey and system architecture.",
-    name: 'Marcus Chen',
-    role: 'Engineering Lead, HealthApp'
+    name: 'Natnael',
+    role: 'Head of Frontend, GuzoGo'
   }];
 
   return (

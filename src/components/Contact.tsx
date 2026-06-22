@@ -16,10 +16,10 @@ export function Contact() {
 
         <FadeIn delay={0.2}>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:binyamlemma2@gmail.com"
             className="inline-block text-2xl md:text-4xl text-primary/80 hover:text-primary transition-colors relative group mb-16">
             
-            hello@example.com
+            binyamlemma2@gmail.com
             <span className="absolute -bottom-2 left-0 w-full h-px bg-white/20 group-hover:bg-accent transition-colors duration-300"></span>
           </a>
         </FadeIn>
@@ -39,7 +39,7 @@ export function Contact() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/binyam-lemma-0033631b4"
                 className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-primary/70 hover:text-accent hover:border-accent/50 hover:bg-accent/10 transition-all">
                 
                 <Dribbble className="w-5 h-5" />

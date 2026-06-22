@@ -26,7 +26,7 @@ export function About() {
             </p>
             <div className="flex items-end gap-4">
               <span className="font-serif text-7xl md:text-8xl text-primary leading-none tracking-tightest">
-                6+
+                4+
               </span>
               <span className="text-primary/60 text-lg mb-2">
                 years of

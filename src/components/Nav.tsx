@@ -46,7 +46,7 @@ export function Nav() {
           href="#"
           className="text-primary font-medium tracking-tight hover:text-accent transition-colors">
           
-          JD.
+          BL.
         </a>
         <ul className="flex gap-8 text-sm font-medium text-primary/70">
           {links.map((link) =>
